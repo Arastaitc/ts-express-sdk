@@ -1,0 +1,30 @@
+{
+  "exclude": [
+    "node_modules",
+    "./build",
+    "./coverage",
+    "__test__",
+    "./.vscode",
+    "./.github",
+    "jest.setup.js"
+  ],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["es6"],
+    "module": "commonjs",
+    "rootDir": "./",
+    "resolveJsonModule": true,
+    "checkJs": true,
+    "allowJs": true,
+    "outDir": "build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  }
+}
