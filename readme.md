@@ -408,6 +408,11 @@ describe('Arasta-Express-Ts', () => {
     expect(response.status).toBe(404);
   });
 });
+```
+Şimdi test komutunu yazdığımızda, projenin jest ile test edilmesi gerekiyor ve testlerin başarıyla geçmesi gerekiyor.
 
+test etmek için 
 
+```bash
+pnpm test
 ```
