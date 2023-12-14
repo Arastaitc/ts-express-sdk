@@ -27,6 +27,7 @@ try {
 
   app.listen(process.env.PORT, () => {
     // eslint-disable-next-line no-console
+    // eslint-disable-next-line no-console
     console.log(`[ArastaTS] developer için hazır!, port: ${process.env.PORT}`);
   });
 } catch (error) {
