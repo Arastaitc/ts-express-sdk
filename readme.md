@@ -171,7 +171,8 @@ Oluşturduğunuz `tsconfig.json` dosyasını tamamen bu şekilde düzenleyin.
     "__test__",
     "./.vscode",
     "./.github",
-    "jest.setup.js"
+    "jest.setup.js",
+    "jest.config.js"
   ],
   "ts-node": {
     "transpileOnly": true,
